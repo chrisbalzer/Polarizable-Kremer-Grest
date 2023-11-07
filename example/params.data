@@ -1,0 +1,16 @@
+  #  atom-type  atom-type  epsilon sigma polarizability(sigma^3) tholeDamp cutoff(LJ)
+  pair_coeff  1    1   1.0     1.0   0.0        2.0     1.12246204831
+  pair_coeff  2    2   1.0     1.0   0.05       2.0     1.12246204831
+  pair_coeff  3    3   1.0     1.0   0.1        2.0     1.12246204831
+  pair_coeff  4    4   1.0     0.5   0.0005     2.0     0.56123102415
+  pair_coeff  5    5   1.0     0.5   0.005      2.0     0.56123102415
+  pair_coeff  6    6   0.0     0.0   0.05       2.0     1.12246204831
+  pair_coeff  7    7   0.0     0.0   0.1        2.0     1.12246204831
+  pair_coeff  8    8   0.0     0.0   0.0005     2.0     1.12246204831
+  pair_coeff  9    9   0.0     0.0   0.005      2.0     1.12246204831
+
+  #            bond-type  bond-style  k       r0    epsilon   sigma
+  bond_coeff  1  fene        30.0    1.5   1.0       1.0
+
+  #            bond-type  bond-style   k         r0
+  bond_coeff  2  harmonic     27464.78   0.0
